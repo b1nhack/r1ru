@@ -168,6 +168,7 @@
   { 'include': [ '"bits/string3.h"', 'private', '<string.h>', 'public'] },
   { 'include': [ '"bits/timerfd.h"', 'private', '<sys/timerfd.h>', 'public'] },
   { 'include': [ '"bits/typesizes.h"', 'private', '<sys/types.h>', 'public'] },
+  { 'include': [ '"bits/mman-map-flags-generic.h"', 'private', '<sys/mman.h>', 'public'] },
   { 'include': [ '<sys/poll.h>', 'private', '<poll.h>', 'public'] },
   { 'include': [ '<sys/syslog.h>', 'private', '<syslog.h>', 'public'] },
   { 'include': [ '<sys/ustat.h>', 'private', '<ustat.h>', 'public'] },

@@ -1,4 +1,4 @@
-TARGET := cross
+TARGET := cross dirty_pagetable
 
 TOOLCHAIN := x86_64-linux-musl
 CC := $(TOOLCHAIN)-gcc
