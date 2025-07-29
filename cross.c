@@ -5,9 +5,9 @@
 #include <sys/ioctl.h>  // for ioctl
 #include <unistd.h>     // for execve, read
 
-#define CMD_ALLOC 0xf000
-#define CMD_WRITE 0xf001
-#define CMD_FREE 0xf002
+#define CMD_ALLOC	0xf000
+#define CMD_WRITE	0xf001
+#define CMD_FREE	0xf002
 
 typedef struct {
 	int id;
