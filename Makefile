@@ -1,4 +1,4 @@
-TARGET := cross dirty_pagetable dirty_cred
+TARGET := cross dirty_pagetable dirty_cred dirty_pipe
 
 TOOLCHAIN := x86_64-linux-musl
 CC := $(TOOLCHAIN)-gcc
